@@ -1,0 +1,1 @@
+export const PAYPAL_CLIENT_SECRET= "EARo-1NEYZ8A8_UsBVSfCOvMIMU7vlCVNy2obksc3LKdIgUAtsGyRWSEcuHrqWg6aMcxVifjdW3-_c0s";

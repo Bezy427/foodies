@@ -1,0 +1,20 @@
+.contact-form {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+
+.custom-input {
+    border-radius: 10px;
+    padding: 12px;
+    border: 2px solid #e9ecef;
+}
+.contact-container {
+    background-image: url("../../assets/restaurant.png");
+    background-size: cover;
+    background-color: #bfafaf;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}

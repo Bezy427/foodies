@@ -1,0 +1,10 @@
+.register-container {
+    background-image: url("../../assets/restaurant.png");
+    background-size: cover;
+    background-color: #bfafaf;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
