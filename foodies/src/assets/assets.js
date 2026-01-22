@@ -1,7 +1,6 @@
 import logo from "./logo.png";
 import  cart from './cart.png';
 import rice from './rice.png';
-//import burger from "./burger.png";
 import cake from "./cake.png";
 import cheeseburger from "./cheeseburger.png";
 import icecream from "./icecream.png";
