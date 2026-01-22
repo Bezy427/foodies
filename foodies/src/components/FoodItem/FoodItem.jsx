@@ -2,7 +2,6 @@ import React, { useContext, useState } from 'react';
 import { Link } from "react-router-dom";
 import { StoreContext } from "../../context/StoreContext.jsx";
 
-// ⭐ Reusable StarRating block
 const StarRating = ({ initialRating = 0, onRate }) => {
     const [rating, setRating] = useState(initialRating);
     const [hover, setHover] = useState(0);
@@ -52,7 +51,6 @@ const FoodItem = ({ name, description, id, imageUrl, price }) => {
                     <div className="d-flex justify-content-between align-items-center">
                         <span className="h5 mb-0">&#36;{price}</span>
 
-                        {/* ⭐ Clickable Rating */}
                         <div className="d-flex align-items-center">
                             <StarRating
                                 initialRating={4}
