@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import './Register.css'
 import {Link, useNavigate} from "react-router-dom";
-import axios from "axios";
 import {toast} from "react-toastify";
 import {registerUser} from "../../service/authService.js";
 
