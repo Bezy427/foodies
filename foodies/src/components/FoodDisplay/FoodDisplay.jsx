@@ -5,7 +5,6 @@ import FoodItem from "../FoodItem/FoodItem.jsx";
 const FoodDisplay = ({ category, searchText }) => {
     const { foodList } = useContext(StoreContext);
 
-    // Prevent null/undefined values
     const safeCategory = category ?? "All";
     const safeSearch = searchText ? searchText.toLowerCase() : "";
 
